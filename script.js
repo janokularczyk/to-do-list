@@ -8,7 +8,6 @@ for (i = 0; i < close.length; i++) {
     }
 }
 
-
 document.getElementById("add-task-button").addEventListener("click", function newElement() {
     // creating li element
     let li = document.createElement("li");
@@ -49,5 +48,5 @@ document.getElementById("add-task-button").addEventListener("click", function ne
             let div = this.parentElement;
             div.style.display = "none";
         }
-      }
+    }
 });
