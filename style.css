@@ -55,6 +55,10 @@ li {
     margin-left: 10px;
 }
 
+input:checked~span.task {
+    text-decoration: line-through;
+}
+
 .delete-btn {
     border: none;
     border-radius: 50%;
